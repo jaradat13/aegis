@@ -1,0 +1,15 @@
+[project]
+name = "aegis-ir"
+version = "0.1.0"
+description = "Offline-first incident response orchestrator with CLI and web dashboard"
+readme = "README.MD"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[project.scripts]
+aegis-ir = "aegis_ir.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
