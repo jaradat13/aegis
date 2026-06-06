@@ -1,4 +1,9 @@
+
 # Aegis IR
+![CI](https://github.com/jaradat13/orin/actions/workflows/test.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey?logo=linux&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Offline-first incident response orchestrator for air-gapped SOCs and lab environments. It provides a dependency-free Python CLI and a local web dashboard for containment, forensic triage, cron rollback, signed audit logging, and offline response suggestions.
 
